@@ -51,7 +51,7 @@ Open the Jupyternotebooks in the notebooks/ directory to explore the data, see t
 
     - Year 2020 - COVID-19  global epidemiologic outbreak caused significant shocks globally. In Belgium, this is evident by a negative growth rate of 60 % in sales and around 6% drop in the median price.
 
-    - Year 2025 - In Q1, there is small growth rate (5%) in number of sales but over 7% growth rate in prices. This is due an increase in the sale of expensive homes rather than a broad increase in the prices of all property types. The tax reforms incentivised purchase of more expensive properties. 
+    - Year 2025 - In Q1, there is small growth rate (5%) in number of sales but over 7% growth rate in prices. One of the reasons is due an increase in the sale of expensive homes rather than a broad increase in the prices of all property types. The tax reforms incentivised purchase of more expensive properties. High deman on houses can also drive the prices upwards as more buyers seek to buy houses.
 
 - Bonus 1: Spatial Visualisation: Use geopandas for a static map visualisation
 
