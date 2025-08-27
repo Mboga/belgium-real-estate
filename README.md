@@ -67,7 +67,7 @@ The "price corrector" adjusts a property's value based on the historical market 
 
     - ``` price at t1 = Price at t0 * (Average Price in Q_t1/ Average Price in Q_t0)```
 
--Bonus 3: Forecasting: To forecast future quarters, I use a linear regression and Lightweight Gradient Boosting Model. 
+- Bonus 3: Forecasting: To forecast future quarters, I use a linear regression and Lightweight Gradient Boosting Model. 
 
     - Model Selection:A Linear Regression model and  A LightGBM regressor are selected to provide a comprative analysis.
 
