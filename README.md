@@ -11,6 +11,8 @@ This repository contains my solution to the technical interview assignment of th
     - Data Transformatiion:  Data transformation to a convenient format to query and visualise. This includes creting a single column for date/time and separate columns fo N (number of sales) and € (price)
     - Exploratory Data Analysis (EDA): Visualising key trends and identifying patterns
     - Price Corrector Implementation: Price correction model
+- plots/: contains static charts in PNG format
+- interactive_map/: contains html of interactive map that can be launched in a browser
 - README.md: This file, providing overview of the project
 - requirements.txt: A list of all necessary Pythoon libraries to run this project
 - src/: A python Script, price_corrector.py, containing the reusable function for the price corrector.  This separates the logic from the exploratory notebooks.
@@ -75,7 +77,7 @@ The "price corrector" adjusts a property's value based on the historical market 
 
     - Feature Engineeering: I extract of additional informative feaures to enable the model capture trends and seasonality.
         - Lagged Price: The median price from the previous quarter (prix_median_lag1)
-        - Rolling MEan: A rolling average of prices over the last quarters (prix_median_rolling_4q) to smooth out noise and capture yearly trends
+        - Rolling Mean: A rolling average of prices over the last quarters (prix_median_rolling_4q) to smooth out noise and capture yearly trends
 
     - Data Preparation: The dataset was prepared as follows:
         - Time-Serieis Indexing: A datetime index was created to handle the time-series data
