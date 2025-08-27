@@ -1,0 +1,15 @@
+pandas
+geopandas
+plotly[express]
+nbformat
+dash
+openpyxl
+matplotlib
+folium
+scikit-learn
+mlflow
+nbformat
+lightgbm
+scipy
+
+
