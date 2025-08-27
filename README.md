@@ -40,10 +40,9 @@ pip install -r requirements.txt
 3. Run the notebooks:
 Open the Jupyternotebooks in the notebooks/ directory to explore the data, see the visualisation and understand the price corrector implementation.
 
-
 ## Data Exploration and Visualisation
 
-- Evolution over time: I have created a time-series ploit that shows the eveolution of number of sales (N) and average prices (€) over the 15 year period. The plots reveals cyclical patterns and highlight key periods of growth/dip in the real estate industry. These can be correlated wit major economic events, or policy changes. Key events are:
+- Evolution over time: I have created a time-series plot that shows the eveolution of number of sales (N) and average prices (€) over the 15 year period. The plots reveals cyclical patterns and highlight key periods of growth/dip in the real estate industry. These can be correlated wit major economic events, or policy changes. Key events are:
     - Year 2015 - In Q1 of 2015, there was negative growth (60% in sales) and (7.5% in house prices). This was caused by pending tax reforms, postponed transactions (anticipated reductions in in property taxes), economic uncertainty and a seasonal market volatility.
 
     - Year 2020 - COVID-19  global epidemiologic outbreak caused significant shocks globally. In Belgium, this is evident by a negative growth rate of 60 % in sales and around 6% drop in the median price.
