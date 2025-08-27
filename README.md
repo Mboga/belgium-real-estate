@@ -4,14 +4,16 @@ This repository contains my solution to the technical interview assignment of th
 
 ## Project Structure
 - data/: contains the raw and processed data
+    - administrative boundaries: https://statbel.fgov.be/sites/default/files/files/opendata/Statistische%20sectoren/sh_statbel_statistical_sectors_31370_20240101.shp.zip
+    - realestate statistical data: https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/FR_immo_statbel_trimestre_par_commune.xlsx
 - notebooks/: Jupyter notebooks showing step by stpe process of:
     - Data Loading and Cleaning: Raexploration 
     - Data Transformatiion:  Data transformation to a convenient format to query and visualise. This includes creting a single column for date/time and separate columns fo N (number of sales) and € (price)
-    - Exploratory Data Analuysis (EDA): Visualising key trends and identifying patterns
+    - Exploratory Data Analysis (EDA): Visualising key trends and identifying patterns
     - Price Corrector Implementation: Price correction model
 - README.md: This file, providing overview of the project
 - requirements.txt: A list of all necessary Pythoon libraries to run this project
-- src/: A python Script, price_corrector.py, containing the reusable function for the price corrector.  This separates the loginc from the exploratory notebooks, promotng good software development practices
+- src/: A python Script, price_corrector.py, containing the reusable function for the price corrector.  This separates the logic from the exploratory notebooks.
 
 
 ## How to Run
