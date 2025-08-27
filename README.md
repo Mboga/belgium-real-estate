@@ -14,7 +14,7 @@ This repository contains my solution to the technical interview assignment of th
 - plots/: contains static charts in PNG format
 - interactive_map/: contains html of interactive map that can be launched in a browser
 - README.md: This file, providing overview of the project
-- requirements.txt: A list of all necessary Pythoon libraries to run this project
+- requirements.txt: A list of all necessary Python libraries to run this project
 - src/: A python Script, price_corrector.py, containing the reusable function for the price corrector.  This separates the logic from the exploratory notebooks.
 
 
