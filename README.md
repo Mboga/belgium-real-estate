@@ -55,7 +55,7 @@ Open the Jupyternotebooks in the notebooks/ directory to explore the data, see t
 
 - Bonus 2: Interactive Visualisation: I have used folium to make the spatial visualisation interactive. I display the mean price across every municipality in the year 2024. 
 
-Further improvements:
+- Further improvements:
 
     1. Creating a an exploratory visualisation allowing to dynamically select the years
     2. Clicking on a municipality produces a line chart showing evolution of the prices, and number of sales
