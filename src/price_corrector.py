@@ -8,6 +8,7 @@ import pandas as pd
 # multiply the original listing_price by this correction factor to get the corrected price t1
 
 def price_corrector(df,listing_price,refnis_code, property_type,t0_quarter, t1_quarter):
+    
     """
     correct a listing price based on median prices at two different quarters
 
@@ -99,6 +100,6 @@ if __name__ == "__main__":
     print(f"Listed Price at {example_t0}:{listing_price} €")
     print(f"Corrected Price at {example_t1}:{corrected_price_example:.2f} €")
 
-    
+
 
 
